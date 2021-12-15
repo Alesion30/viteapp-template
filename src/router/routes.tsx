@@ -13,7 +13,7 @@ export const routes: Route[] = [
     element: <RootPage />,
   },
   {
-    path: PATH.Hoge,
+    path: PATH.HOGE,
     element: <HogePage />,
   },
 ]

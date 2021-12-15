@@ -21,7 +21,7 @@ export const Root: React.VFC = () => {
           </Button>
         </p>
         <p className='my-5'>
-          <Link to={PATH.Hoge}>
+          <Link to={PATH.HOGE}>
             <Button className='w-72'>HOGEページに遷移</Button>
           </Link>
         </p>
