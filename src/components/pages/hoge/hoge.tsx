@@ -7,7 +7,7 @@ import { Button } from '~/components/common/button/button'
 import { PATH } from '~/router/path'
 
 export const Hoge: React.VFC = () => {
-  const { count, addCount } = useHoge()
+  const { count, subCount } = useHoge()
 
   return (
     <div className='text-center'>
@@ -16,7 +16,7 @@ export const Hoge: React.VFC = () => {
         <p className='text-4xl'>HOGEページ</p>
         <p className='my-5'>
           count is:{' '}
-          <Button outlined onClick={addCount}>
+          <Button outlined onClick={subCount}>
             {count}
           </Button>
         </p>
