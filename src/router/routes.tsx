@@ -2,8 +2,8 @@ import { PathRouteProps, LayoutRouteProps, IndexRouteProps } from 'react-router-
 
 import { PATH } from './path'
 
-import { RootPage } from '~/screens/root'
-import { XXXPage } from '~/screens/xxx'
+import { RootPage } from '~/pages'
+import { HogePage } from '~/pages/hoge'
 
 type Route = PathRouteProps | LayoutRouteProps | IndexRouteProps
 
@@ -13,7 +13,7 @@ export const routes: Route[] = [
     element: <RootPage />,
   },
   {
-    path: PATH.XXX,
-    element: <XXXPage />,
+    path: PATH.Hoge,
+    element: <HogePage />,
   },
 ]

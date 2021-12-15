@@ -1,4 +1,4 @@
 export const PATH = {
   ROOT: '/',
-  XXX: '/xxx',
+  Hoge: '/hoge',
 }
