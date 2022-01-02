@@ -1,6 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 
-import { Error, ErrorProps } from '~/components/error/error'
+import { Error, ErrorProps } from '~/components/error'
 
 export default {
   title: 'Components/Error',
