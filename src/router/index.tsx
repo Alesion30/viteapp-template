@@ -1,15 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Router, Outlet } from 'react-location'
 
-import { routes } from './routes'
+import { routes, location } from './routes'
 
-export const Router: React.VFC = () => {
+export const AppRouter: React.VFC = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        {routes.map((routeProps, i) => (
-          <Route key={i} {...routeProps} />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    <Router routes={routes} location={location}>
+      <Outlet />
+    </Router>
   )
 }

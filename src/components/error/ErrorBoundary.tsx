@@ -1,6 +1,6 @@
 import React, { ErrorInfo } from 'react'
 
-import { Error } from './error'
+import { Error } from '.'
 
 export class ErrorBoundary extends React.Component<{}, { hasError: boolean }> {
   constructor(props: {}) {

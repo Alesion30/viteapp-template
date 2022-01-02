@@ -1,11 +1,11 @@
-import { PathRouteProps, LayoutRouteProps, IndexRouteProps } from 'react-router-dom'
+import { ReactLocation, Route } from 'react-location'
 
 import { PATH } from './path'
 
-import { RootPage } from '~/pages'
 import { HogePage } from '~/pages/hoge'
+import { RootPage } from '~/pages/root'
 
-type Route = PathRouteProps | LayoutRouteProps | IndexRouteProps
+export const location = new ReactLocation()
 
 export const routes: Route[] = [
   {

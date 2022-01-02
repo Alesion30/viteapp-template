@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'
 
 import '~/index.css'
 import 'tailwindcss/tailwind.css'
-import { Router } from './router'
+import { AppRouter } from './router'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router />
+    <AppRouter />
   </React.StrictMode>,
   document.getElementById('root')
 )
