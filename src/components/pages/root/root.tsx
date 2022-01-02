@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-location'
 
 import { useRoot } from './root.hook'
 
