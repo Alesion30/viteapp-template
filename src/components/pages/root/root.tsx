@@ -3,7 +3,7 @@ import { Link } from 'react-location'
 import { useRoot } from './root.hook'
 
 import logo from '~/assets/logo.svg'
-import { Button } from '~/components/common/button/button'
+import { Button } from '~/components/button/button'
 import { PATH } from '~/router/path'
 
 export const Root: React.VFC = () => {

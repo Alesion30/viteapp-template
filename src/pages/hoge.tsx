@@ -1,4 +1,4 @@
-import { ErrorBoundary } from '~/components/common/error/ErrorBoundary'
+import { ErrorBoundary } from '~/components/error/ErrorBoundary'
 import { Hoge } from '~/components/pages/hoge/hoge'
 
 export const HogePage: React.VFC = () => {
