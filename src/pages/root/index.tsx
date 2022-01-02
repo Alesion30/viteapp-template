@@ -1,12 +1,12 @@
 import { Link } from 'react-location'
 
-import { useRoot } from './root.hook'
+import { useRoot } from './hook'
 
 import logo from '~/assets/logo.svg'
 import { Button } from '~/components/button/button'
 import { PATH } from '~/router/path'
 
-export const Root: React.VFC = () => {
+export const RootPage: React.VFC = () => {
   const { count, addCount } = useRoot()
 
   return (

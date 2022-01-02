@@ -2,8 +2,8 @@ import { ReactLocation, Route } from 'react-location'
 
 import { PATH } from './path'
 
-import { RootPage } from '~/pages'
 import { HogePage } from '~/pages/hoge'
+import { RootPage } from '~/pages/root'
 
 export const location = new ReactLocation()
 
